@@ -93,7 +93,7 @@ html {
             max-height: 650px;
         }
         #content{
-            background: url(/img/bio.jpg) center / cover no-repeat;
+            background: url(bio.jpg) center / cover no-repeat;
             background-color: #fff;
 
         }
