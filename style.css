@@ -20,7 +20,7 @@ html {
     background: url('img/pic7.jpg') top center / cover no-repeat;
     background-size: cover;
     background-repeat: no-repeat;
-    z-index: 2;
+    z-index: 0;
 }
   #header::before {
     position: absolute;
