@@ -163,6 +163,6 @@ html {
             padding: 32px;
         }
         .end-padding{
-            text-decoration: none;
-             color: #000;}
+             color:   !important;
+        }
             
