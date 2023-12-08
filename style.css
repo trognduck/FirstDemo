@@ -17,7 +17,7 @@ html {
     left: 0;
     top: 0;
     width: 100%;
-    background: url('https://scontent.fhan2-4.fna.fbcdn.net/v/t39.30808-6/335020740_208438195199150_1219180878024117291_n.jpg?stp=cp6_dst-jpg&_nc_cat=100&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=elf3TbpfQRIAX9UXG8f&_nc_ht=scontent.fhan2-4.fna&oh=00_AfB1LAhzB6wEYfWyIssaMrd2_UAU64tV_-yfUEYBq0VkNg&oe=65783A9A') top center / cover no-repeat;
+    background: url('img/pic7.jpg') top center / cover no-repeat;
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 2;
@@ -93,7 +93,7 @@ html {
             max-height: 650px;
         }
         #content{
-            background: url(https://raw.githubusercontent.com/trognduck/FirstDemo/master/img/bio.jpg) center / cover no-repeat;
+            background: url(img/bio.jpg) center / cover no-repeat;
             background-color: #fff;
 
         }
