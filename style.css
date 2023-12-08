@@ -93,7 +93,7 @@ html {
             max-height: 650px;
         }
         #content{
-            background: url(https://github.com/trognduck/FirstDemo/blob/master/img/bio.jpg) center / cover no-repeat;
+            background: url(https://raw.githubusercontent.com/trognduck/FirstDemo/master/img/bio.jpg) center / cover no-repeat;
             background-color: #fff;
 
         }
