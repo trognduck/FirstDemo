@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica, Arial, sans-serif
+}
+
+
+#header{
+    height: 60px;
+    background-color:#000;
+    
+    position:fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: url('https://scontent.fhan2-4.fna.fbcdn.net/v/t39.30808-6/335020740_208438195199150_1219180878024117291_n.jpg?stp=cp6_dst-jpg&_nc_cat=100&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=elf3TbpfQRIAX9UXG8f&_nc_ht=scontent.fhan2-4.fna&oh=00_AfB1LAhzB6wEYfWyIssaMrd2_UAU64tV_-yfUEYBq0VkNg&oe=65783A9A') top center / cover no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+  #header::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }   
+  #nav{
+    display: inline-block;
+  }
+  #nav, .sub {
+    list-style-type: none;
+  }
+  #nav > li {
+    display: inline-block;
+  }
+  
+    
+    #nav li{
+        position: relative;
+    }
+    #nav .sub{
+        display: none;
+        position: absolute;
+        top:100%;
+        left: 0%;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0,0.3);
+    }
+    #nav > li > a{
+        color: #f3e9e9;
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+     
+    #nav li a {
+        font-size: 16px;
+        text-decoration: none;
+        line-height: 60px;
+        padding: 0px 30px;
+        display: block;
+        
+        
+    }
+    
+    #nav li:hover .sub{
+        display: block;
+    }
+
+    #nav .sub li:hover a,
+    #nav > li:hover > a{
+        color: #000;
+        background-color:#f3e9e9 ;
+        display: block;
+        }
+        
+        #nav .sub a{
+        color: #000;
+        padding: 16px 20px;
+        line-height: 30px;
+        }
+        
+        #nav .nav-arrow-down{
+            font-size: 14px;
+        }
+        .slides{
+            position: relative;
+            width: 100%;
+            max-height: 650px;
+        }
+        #content{
+            background: url(/img/bio.jpg) center / cover no-repeat;
+            background-color: #fff;
+
+        }
+        #content .content-section{
+            width: 700px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        #content .section-heading{
+            text-align: center;
+            font-size: 32px;
+            font-weight: 500;
+            letter-spacing: 2px;
+            padding-top: 30px;
+            color: #338ece;
+        
+        } 
+        #content .section-slogan{
+            text-align: center;
+            font-size: 15px;
+            margin-top: 25px;
+            margin-bottom: 20px;
+            opacity: 0.6;
+            font-style: italic;
+            color: #283593;
+            background-image:initial ;
+
+        }
+        #content .about-text{
+            text-align: justify;
+            line-height: 1.6 ;
+        }
+        
+        .col{
+            float: left;
+            padding: 4px 8px;
+        }
+        .col-half{
+            width: 50%;
+        }
+
+        .row-contact{
+            margin-top: 48px;
+        }
+        .contact-info i{
+            width: 10px;
+            margin: 32px;
+        }
+        .contact-info{
+            font-size: 18px;
+            line-height: 1.4;
+        }
+        .form-control-full{
+            border: 1px solid #333;
+            float: center;
+            width: 100%;
+        }
+        #content-section-two{
+            background:#fff;
+        }
+        .img-section img{
+            width: 100%;
+            height: 700px;
+        }
+        .end-padding{
+            text-align: center;
+            padding: 32px;
+        }
